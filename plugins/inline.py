@@ -49,7 +49,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Latest Updates 💻📱 "
+        switch_pm_text = f"{emoji.FILE_FOLDER} Latest Updates  "
         if string:
             switch_pm_text += f" for {string}"
 
@@ -60,7 +60,7 @@ async def answer(bot, query):
                            next_offset=str(next_offset))
     else:
 
-        switch_pm_text = f'{emoji.CROSS_MARK}💻📱  No App   Found in This name 🙁'
+        switch_pm_text = f'{emoji.CROSS_MARK}No  files   Found in This name 🙁'
         if string:
             switch_pm_text += f' for "{string}"'
 
