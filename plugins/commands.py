@@ -40,7 +40,7 @@ async def start(bot, message):
     else:
         buttons = [
             [
-                InlineKeyboardButton('Updates Channel 🗣', url='https://t.me/sl_bot_zone'),
+                InlineKeyboardButton('Updates Channel 🗣', url='https://t.me/joinchat/44HZBE6gOxhlNjFl'),
                 InlineKeyboardButton('Go Inline 🎭', switch_inline_query=''),
             ],
             [
