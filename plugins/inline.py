@@ -79,8 +79,8 @@ def get_reply_markup(username, query):
         ],
 
         [
-           InlineKeyboardButton('Updates Channel 🔔 ', url='https://t.me/sl_bot_zone'),
-           InlineKeyboardButton('Subscribe & help 💡 ', url='https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA'),
+           InlineKeyboardButton('Updates Channel 🔔 ', url='https://t.me/studiozhd'),
+           InlineKeyboardButton('Subscribe & help 💡 ', url='https://www.youtube.com/channel/UCIVov8xZWh2Pt7SsZROxEBw'),
         ],
     ]
     return InlineKeyboardMarkup(buttons)
