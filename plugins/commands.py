@@ -40,7 +40,7 @@ async def start(bot, message):
     else:
         buttons = [
             [
-                InlineKeyboardButton('Updates Channel 🗣', url='https://t.me/sl_bot_zone'),
+                InlineKeyboardButton('Updates Channel 🗣', url='https://t.me/studiozhd'),
                 InlineKeyboardButton('Go Inline 🎭', switch_inline_query=''),
             ],
             [
@@ -92,7 +92,7 @@ async def total(bot, message):
     if FSub == 400:
         return
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳\n@sl_bot_zone Projects 🇱🇰", quote=True)
+    msg = await message.reply("Processing...⏳\n@studiozhd Projects 🇱🇰", quote=True)
     try:
         total = await Media.count_documents()
         await msg.edit(f'📁 Total files saved Tg film Bot Database: {total}')
@@ -123,7 +123,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳\n@sl_bot_zone Projects 🇱🇰", quote=True)
+        msg = await message.reply("Processing...⏳\n@studiozhd Projects 🇱🇰", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
@@ -143,9 +143,9 @@ async def delete(bot, message):
         'caption': reply.caption
     })
     if result.deleted_count:
-        await msg.edit('File is successfully deleted from database\n@sl_bot_zone Projects🇱🇰')
+        await msg.edit('File is successfully deleted from database\n@studiozhd Projects🇱🇰')
     else:
-        await msg.edit('File not found in database\n@sl_bot_zone Projects🇱🇰')
+        await msg.edit('File not found in database\n@studiozhd Projects🇱🇰')
 
 
 @Client.on_message(filters.private & filters.command("broadcast") & filters.user(info.ADMINS) & filters.reply)
