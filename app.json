@@ -13,8 +13,8 @@
       "index",
       "inline"
     ],
-    "website": "https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA",
-    "repository": "https://github.com/Naviya2/LeoMediaSearchBot",
+    "website": "https://github.com/tayyabawan786/mediasearchbot",
+    "repository": "https://github.com/tayyabawan786/mediasearchbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -81,7 +81,7 @@
         },
         "SHARE_BUTTON_TEXT": {
             "description": "A Massege for add to share button. If you want to change it you can change it here",
-            "value": "**Mod app  Search Bot 🇱🇰**\n\n`Here you can find any Mod app  by searching its name 😊´\n\nBot : {username} 🤖\nSupport Group : @slbotzone 🇱🇰\nUpdates Channel: @sl_bot_zone 🇱🇰\nDevelopper : @supunma 🇱🇰",
+            "value": "**Mod app  Search Bot 🇱🇰**\n\n`Here you can find any Mod app  by searching its name 😊´\n\nBot : {username} 🤖\nSupport Group : @vodiflix1 🇱🇰\nUpdates Channel: @studiozhd 🇱🇰\nDevelopper : @kinzarashid 🇱🇰",
             "required": false
         },
         "USE_CAPTION_FILTER": {
